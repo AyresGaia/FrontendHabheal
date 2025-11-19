@@ -1,5 +1,5 @@
 import React from "react";
-import sampleImg from "../../assets/Image2.png"; // replace with your image path
+import sampleImg from "../../assets/image2.png"; // replace with your image path
 
 const BackgroundSection = () => {
   return (

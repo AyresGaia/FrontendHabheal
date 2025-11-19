@@ -1,5 +1,5 @@
 import React from "react";
-import sampleImg from "../../assets/Image3.png"; // replace with your image path
+import sampleImg from "../../assets/image3.png"; // replace with your image path
 
 const Licence = () => {
   return (
