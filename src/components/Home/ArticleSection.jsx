@@ -52,7 +52,7 @@ const ArticlesSection = () => {
 
   useEffect(() => {
     let isMounted=true;
-    fetch("${BASE_URL}/api/articles")
+    fetch(`${BASE_URL}/api/articles`)
       .then((res) => res.json())
       .then((data) => {
         if (isMounted) setArticles(data);
