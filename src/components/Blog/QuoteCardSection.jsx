@@ -9,10 +9,10 @@ import ArticleCard from "./QuoteCard";
 
 const BASE_URL = import.meta.env.VITE_BASE_URL;
 
-import i from "../../assets/hero.gif";
-import i1 from "../../assets/imageluca.gif";
-import i2 from "../../assets/imagepica.gif";
-import i3 from "../../assets/evee.gif";
+// import i from "../../assets/hero.gif";
+// import i1 from "../../assets/imageluca.gif";
+// import i2 from "../../assets/imagepica.gif";
+// import i3 from "../../assets/evee.gif";
 
 // const articles = [
 //   {
