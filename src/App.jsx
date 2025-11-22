@@ -10,7 +10,7 @@ import Blog from "./pages/Article.jsx"
 import Article from "./pages/ArticleNew.jsx";
 import CategoryPage from "./pages/CategoryPage.jsx";
 import PreventiveCare from "./pages/PreventiveCare.jsx";
-// import Nutri from "./pages/Nutri.jsx"
+import Nutri from "./pages/Nutri.jsx"
 // import Heal from "./pages/Heal.jsx"
 import Temp from "./pages/Temp.jsx"
 import SignupForm from "./components/SignupForm.jsx";
@@ -31,8 +31,8 @@ function App() {
           <Route path="/article/:id" element={<Blog />} />
           <Route path="/category/:category" element={<CategoryPage />} />
           <Route path="/preventive" element={<PreventiveCare />} />
-          {/* <Route path="/nutri" element={<Nutri />} />
-          <Route path="/heal" element={<Heal />} /> */}
+          <Route path="/nutri" element={<Nutri />} />
+          {/* <Route path="/heal" element={<Heal />} /> */}
           <Route path="/temp" element={<Temp />} />
         </Routes>
       <SignupForm></SignupForm>

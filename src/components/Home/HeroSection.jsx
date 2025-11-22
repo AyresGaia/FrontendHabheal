@@ -1,20 +1,21 @@
 import React from "react";
-import heroGif from '../../assets/hero.mp4';
+// import heroGif from '../../assets/hero.mp4';
+import heroGif from '../../../public/Habheal_Growth_Meditation.mp4';
 import { Link, useLocation } from "react-router-dom";
 
 const HeroSection = () => {
   return (
     <section className="relative w-full h-[60vh] md:h-[90vh] overflow-hidden flex items-center justify-start">
       {/* Background video or gif */}
-      <video
+      {/* <video
         autoPlay
         src={heroGif}
         loop
         muted
         playsInline
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover "
       >
-      </video>
+      </video> */}
 
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/50"></div>

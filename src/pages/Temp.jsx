@@ -1,8 +1,8 @@
 import React from "react";
-import PreventiveCare from "./PreventiveCare.jsx";
+import FoodGrid from "../components/Nutri/FoodGrid";
 const Temp = () => (
   <>
-    <PreventiveCare/>
+    <FoodGrid></FoodGrid>
   </>
 );
 
